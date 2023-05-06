@@ -67,9 +67,8 @@ int main()
         point p;
         cout << i+1 << " Element: x="; 
         cin >> p.x;
-        cout << endl << p.x << " y=";
+        cout << " y=";
         cin >> p.y;
-        cout << p.y << endl;
         points.push_back(p);
     }
 
